@@ -1,0 +1,215 @@
+%!TEX program = lualatex
+
+\documentclass[17pt]{beamer}
+%\documentclass[handout]{beamer}
+%\documentclass[aspectratio=169]{beamer}
+
+\usepackage{fontspec}
+\usepackage{libertine}
+%\usepackage{microtype}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{unicode-math}
+\usepackage{lualatex-math}
+
+\setmainfont[Ligatures=TeX]{Linux Biolinum O}
+%\setmathfont[math-style=ISO,bold-style=ISO,vargreek-shape=TeX,Ligatures=TeX]{TeX Gyre Pagella Math}
+
+\usepackage{polyglossia} % babel replacement for use with fontspec
+\setdefaultlanguage[variant=american]{english}
+\selectlanguage[variant=american]{english}
+\usepackage{csquotes}
+\usepackage[load-configurations={abbreviations,binary}]{siunitx}
+\sisetup{load-configurations = abbreviations,binary-units}
+\usepackage{multirow}
+\usepackage{tabu}
+\usepackage{booktabs}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{glossaries}
+\usepackage{color}
+
+\usetheme{EastLansing}
+\usecolortheme{seagull}
+\useinnertheme{rectangles}
+\usefonttheme{professionalfonts}
+
+\beamertemplatenavigationsymbolsempty
+\AtBeginSection{\sectionpage}
+
+
+\title[]{Generalversammlung FunkFeuer Wien}
+%\author{}
+%\institute[]{}
+\date[]{2019-05-27\\\vspace{1cm}\tiny CC BY-SA 4.0}
+
+
+\def\Put(#1,#2)#3{\leavevmode\makebox(0,0){\put(#1,#2){#3}}}
+
+\newcommand\scaleheight{0.7}
+
+
+
+\begin{document}
+
+
+\frame{\titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% \begin{frame}
+% 	\frametitle{Outline}
+% 	\tableofcontents
+% \end{frame}
+% \note[itemize] {
+% 	\item NOTIZ HIER
+% }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Begrüßung}
+	Beginn um 18:30.
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Feststellen der Beschlussfähigkeit}
+	nach §9 Abs. 6:
+	\textit{,,Die Generalversammlung ist ohne Rücksicht auf die Anzahl der
+	Erschienenen beschlussfähig.''}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Was haben wir vor uns?}
+	\begin{itemize}
+		\item Berichte von Vorstand, Arbeitsgruppen, Kassieren,
+		Rechnungsprüfern
+		\item Abstimmung über Entlastung
+		\item Vorstandswahl
+		\item Abstimmung über Anträge zu den Statuten und zur Tagesordnung
+		\item Allfälliges --- Soziokratie, Neuhousing
+	\end{itemize}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Bericht des Vorstands}
+	...inklusive Berichte aus Arbeitsgruppen
+	\begin{itemize}
+		\item HIER KÖNNTE DEIN THEMA STEHEN
+		\item Anexia-Roofnode; Backbone
+		\item 60-GHz-Strecke NIX--Krypta
+		\item Infrastruktur: VM-Übersiedlung
+		\item Housing-Umzug (später mehr)
+		\item Kommunikation, MoMos, FMB, ...
+	\end{itemize}
+\end{frame}
+\note[itemize] {
+	\item Zirka 2 Minuten pro Punkt
+	\item Vortrag muss nicht durch den Vorstand erfolgen!
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{To-Do!?}
+	(Hier könnte pro Thema eine eigene Folie mit Stichworten stehen.)
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Bericht des Kassiers}
+	\begin{itemize}
+		\item Durch
+		\item die
+		\item Kassiere
+		\item festzulegen!
+	\end{itemize}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Bericht der Rechnungsprüfer}
+	\begin{itemize}
+		\item Durch
+		\item die
+		\item Rechnungsprüfer
+		\item festzulegen!
+	\end{itemize}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Abstimmung über Entlastung des Vorstands}
+	(für den Anteil der Funktionsperiode im Geschäftsjahr)
+\end{frame}
+\note[itemize] {
+	\item Das Geschäftsjahr des Vereins beginnt (generell) unabhängig und
+	(momentan) nicht gleichzeitig mit der Funktionsperiode des Vorstands
+	\item Eine Angleichung wurde bereits vorgeschlagen, aber abgelehnt
+	\item \url{https://wiki.funkfeuer.at/wiki/Regionen/Wien/Verein/201805_GV_Protokoll\#Antrag_auf_Angleichung_des_Gesch.C3.A4ftsjahres}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Wahl eines neuen Vorstands}
+	\begin{itemize}
+		\item Kandidaturen gemäß Wiki: \url{https://wiki.funkfeuer.at/wiki/Regionen/Wien/Verein/201905_GV\#Kandidaturen}
+		\item Freiwillige*r Wahlleiter*in gesucht
+		\item Ende der Wahlkartenausgabe
+		\item Vorstellungsrunde der Kandidierenden
+		\item Wahl der Vorstandsfunktionen
+		\item Annahme der Wahl
+	\end{itemize}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Anträge}
+	\begin{itemize}
+		\item Anträge zur Änderung der Statuten: \url{https://gitlab.com/funkfeuer/Statuten-Wien/merge_requests
+}
+		\item Weitere Anträge (nach Eintreffen)
+		\item Zur Erinnerung: Frist 24.05.2019 18:00)
+	\end{itemize}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Allfälliges}
+	\begin{itemize}
+		\item ,,Soziokratie''-Projekt (Vortrag Christian Bruckner, 10 min)
+		\item ,,Neuhousing''-Projekt (Vortrag N. N., 10 min)
+	\end{itemize}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Das war's}
+	Danke für's Dabeisein!
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
